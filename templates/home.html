@@ -4,5 +4,6 @@
 {% if user.is_authenticated %}
 <p>Welcome {{ user.username }} !!!</p>
 {% else %}
-<a href="{% provider_login_url 'github' %}">Sign Up</a>
+<a href="{% provider_login_url 'github' %}">Sign Up with Github</a><br>
+<a href="{% provider_login_url 'google' %}">Sign Up with Gmail</a>
 {% endif %}
