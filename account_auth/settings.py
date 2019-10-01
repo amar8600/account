@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount', # new
     'allauth.socialaccount.providers.github', # new
 
+    'allauth.socialaccount.providers.google', # new
 ]
 
 AUTHENTICATION_BACKENDS = (
